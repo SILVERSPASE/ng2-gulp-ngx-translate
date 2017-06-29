@@ -1,4 +1,7 @@
 
+DEMO
+https://silverspase.github.io/ng2-gulp-ngx-translate/
+
 Angular2 + ngx-translate with Gulp
 =================================
 
