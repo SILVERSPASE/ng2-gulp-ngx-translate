@@ -1,4 +1,4 @@
-Angular2 with TypeScript and Gulp
+Angular2 + ngx-translate with Gulp
 =================================
 
 A basic Angular2 application with Gulp as build system.
@@ -27,15 +27,16 @@ A basic Angular2 application with Gulp as build system.
 
 > npm i -g ts-node@1.3.0
 
+
 #### 2. Cloning the repository
 
 Clone the repository:
 
-> git clone https://github.com/kolorobot/angular2-typescript-gulp.git
+> git clone https://github.com/SILVERSPASE/ng2-gulp-ngx-translate.git
 
 Navigate to `angular2-typescript-gulp` directory:
 
-> cd angular2-typescript-gulp
+> cd ng2-gulp-ngx-translate
 
 #### 3. Installing dependencies
 
@@ -60,8 +61,3 @@ Start the application by running the following command:
 > npm start
 
 The application will be displayed in the browser.
-
-Resources
----------
-
-- [A step-by-step tutorial](http://blog.codeleak.pl/2016/03/quickstart-angular2-with-typescript-and.html)
