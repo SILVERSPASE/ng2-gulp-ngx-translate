@@ -5,19 +5,19 @@
 
     <!-- 1. Load libraries -->
     <!-- Polyfill(s) for older browsers -->
-    <script src="demo/lib/core-js/client/shim.min.js"></script>
+    <script src="lib/core-js/client/shim.min.js"></script>
 
-    <script src="demo/lib/zone.js/dist/zone.js"></script>
-    <script src="demo/lib/reflect-metadata/Reflect.js"></script>
-    <script src="demo/lib/systemjs/dist/system.src.js"></script>
+    <script src="lib/zone.js/dist/zone.js"></script>
+    <script src="lib/reflect-metadata/Reflect.js"></script>
+    <script src="lib/systemjs/dist/system.src.js"></script>
 
     <!-- 2. Configure SystemJS -->
-    <script src="demo/systemjs.config.js"></script>
+    <script src="systemjs.config.js"></script>
     <script>
         System.import('app')
                 .then(null, console.error.bind(console));
     </script>
-    <link rel="stylesheet" href="demo/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
