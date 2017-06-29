@@ -9,10 +9,10 @@ const tslint = require('gulp-tslint');
 
 const concat = require('gulp-concat');
 const sass = require('gulp-sass');
-const tinypng = require('gulp-tinypng-compress');
+// const tinypng = require('gulp-tinypng-compress');
 const autoprefixer = require('gulp-autoprefixer');
-const uglify = require('gulp-uglify');
-const ngmin = require('gulp-ngmin');
+// const uglify = require('gulp-uglify');
+// const ngmin = require('gulp-ngmin');
 
 var scssSources = [
     // './node_modules/normalize.css/normalize.css',

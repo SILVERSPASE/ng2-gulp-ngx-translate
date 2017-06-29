@@ -1,13 +1,16 @@
 <section>
-  <nav>
-      <a routerLink="/template1">Template 1</a>
-      <a routerLink="/template2">Template 2</a>
-  </nav>
-  <label>
-    {{ 'HOME.SELECT' | translate }}
-    <select #langSelect (change)="translate.use(langSelect.value)">
-      <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
-    </select>
-  </label>
+  <div class="header">
+    <nav>
+      <a routerLink="/template1" routerLinkActive="active">Template 1</a>
+      <a routerLink="/template2" routerLinkActive="active">Template 2</a>
+    </nav>
+    <label>
+      {{ 'HOME.SELECT' | translate }}
+      <select #langSelect (change)="translate.use(langSelect.value)">
+        <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+      </select>
+    </label>
+  </div>
+
   <router-outlet></router-outlet>
 </section>
