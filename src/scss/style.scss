@@ -1,0 +1,33 @@
+@import './src/scss/_variables';
+@import './src/scss/_mixin';
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  font-family:Arial;
+  margin:0;
+  box-sizing:border-box;
+  nav {
+    display: inline-block;
+    margin:0 60px;
+    a {
+      color: white;
+      text-decoration: none;
+      margin:0 20px;
+      &.active {
+        color:#8fff00;
+      }
+    }
+  }
+  .header{
+    width: 100%;
+    background: #3ca3ff;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 5px 4px rgba(60, 163, 255, 0.38);
+    position: relative;
+  }
+}
