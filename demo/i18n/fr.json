@@ -1,0 +1,11 @@
+{
+  "HOME": {
+    "SELECT": "Changer la langue"
+  },
+  "TEMPLATE1":{
+    "TITLE": "Bonjour Template 1!"
+  },
+  "TEMPLATE2":{
+    "TITLE": "Bonjour Template 2!"
+  }
+}
